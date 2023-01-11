@@ -1,0 +1,76 @@
+/* Navigation Bar */
+#navbar {
+    display: flex;
+    align-items: right;
+    position: relative;
+    top: 0px;
+}
+
+/* Navigation Bar :Logo and Image */
+#logo {
+    margin: 10px 15px;
+    height:45px;
+    width:1000px;
+}
+#fugacity {
+    margin: 10px 15px;
+    height:45px;
+    width: 500px;
+}
+
+#logo img {
+    height: 80px;
+    margin: -38px -4px;
+}
+#fugacity img {
+    height: 200px;
+    margin: -98px -950px;
+    width: 200px;
+    /* margin: 0px 0px; */
+}
+
+
+/* Navigation Bar :List Styling */
+/* #navbar {
+    position: absolute;
+    top: 0px;
+} */
+
+#navbar ul {
+    display: flex;
+    font-family: 'Bree Serif', serif;
+    /* align-items: flex-end; */
+    margin: 10px -520px;
+}
+
+#navbar::before {
+    content: "";
+    background-color: rgb(232, 185, 185);
+    position: absolute;
+    height: 50px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#navbar li {
+    list-style: none;
+    font-size: 1.3rem;
+    /* align-items: flex-end; */
+
+}
+
+#navbar li a {
+    display: block;
+    color: black;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    align-items: flex-end;
+}
+
+#navbar li a:hover {
+    color: black;
+    background-color: rgb(255, 249, 249);
+}
+
